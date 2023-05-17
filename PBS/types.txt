@@ -127,3 +127,50 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[FIREELEMENT]
+Name = Fire
+IconPosition = 19
+IsSpecialType = true
+Weaknesses = WATERELEMENT
+Resistances = NATUREELEMENT
+#-------------------------------
+[WATERELEMENT]
+Name = Water
+IconPosition = 20
+IsSpecialType = true
+Weaknesses = NATUREELEMENT
+Resistances = FIREELEMENT
+#-------------------------------
+[NATUREELEMENT]
+Name = Nature
+IconPosition = 21
+IsSpecialType = true
+Weaknesses = FIREELEMENT
+Resistances = WATERELEMENT
+#-------------------------------
+[WINDELEMENT]
+Name = Wind
+IconPosition = 22
+IsSpecialType = true
+Weaknesses = LIGHTNINGELEMENT
+Resistances = EARTHELEMENT
+#-------------------------------
+[LIGHTNINGELEMENT]
+Name = Water
+IconPosition = 23
+IsSpecialType = true
+Weaknesses = EARTHELEMENT
+Resistances = WINDELEMENT
+#-------------------------------
+[EARTHELEMENT]
+Name = Earth
+IconPosition = 24
+IsSpecialType = true
+Weaknesses = WINDELEMENT
+Resistances = LIGHTNINGELEMENT
+#-------------------------------
+[PHYSICALELEMENT]
+Name = Physical
+IconPosition = 25
+IsSpecialType = false
